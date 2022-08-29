@@ -1,0 +1,22 @@
+img {
+    width: 300px;
+    height: auto;
+}
+.Collection {
+    display: flex;
+    flex-direction: row;
+    height: 1200px;
+}
+.Available {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: auto;
+    overflow-y: auto;
+    border-right: 10px solid goldenrod;
+    background-color: rgb(245, 245, 245);
+}
+.Selected {
+    width: 70%;
+    overflow-y: auto;
+}
